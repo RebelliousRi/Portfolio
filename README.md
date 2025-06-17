@@ -1,2 +1,2 @@
 # Portfolio
-This is a coding portfolio containing every program I have created, showcase my skillset journey.
+This is a coding portfolio containing every program I have created, showcasing my skillset journey.
