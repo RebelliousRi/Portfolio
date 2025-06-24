@@ -1,4 +1,4 @@
-# Arianna St John's Programming Portfolio
+# Arianna St. John's Programming Portfolio
 
 Welcome! This repository is a curated journey through my programming career, from my earliest projects in secondary school to my most recent work. It's a collection of projects and exercises that showcase my growth and dedication to coding.
 
@@ -76,7 +76,7 @@ Each section contains:
 
 ## License & Copyright
 
-© 2024 Arianna St John. All Rights Reserved.
+© 2024 Arianna St. John. All Rights Reserved.
 
 This portfolio and all its contents are protected under Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0). This means:
 
