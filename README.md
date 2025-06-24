@@ -20,14 +20,24 @@ Here's a map to help you navigate my work:
 
 ```
 Portfolio/
-├── main-projects/
-│   ├── project-1/
-│   └── ...
-└── small-exercises/
-    ├── secondary-school/
-    │   └── ...
-    └── college/
-        └── ...
+├── College-(Sir-Arthur-Lewis-Community-College)/
+│   ├── README-College.md
+│   ├── Main Projects/
+│   │   └── ... (Complex applications from college)
+│   └── Small Exercises/
+│       └── ... (Course exercises and smaller implementations)
+└── Secondary-School-(St.-Joseph's-Convent)/
+    ├── README-Secondary School.md
+    ├── Main Projects/
+    │   └── ... (Larger applications from secondary school)
+    └── Small Exercises/
+        └── ... (Practice exercises and smaller projects)
+```
+
+Each section contains:
+- **Main Projects**: Larger, feature-complete applications demonstrating comprehensive skills
+- **Small Exercises**: Practice work, assignments, and smaller implementations
+- **README files**: Detailed information about projects in each educational period
 
 ---
 

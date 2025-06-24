@@ -1,82 +1,41 @@
-# Portfolio
-This is a coding portfolio containing every program I have created, showcasing my skillset journey.
+# College Projects: Sir Arthur Lewis Community College
 
-# Project Name
+This section of my portfolio showcases the projects and coursework I completed while attending Sir Arthur Lewis Community College. Building upon the foundation I developed in secondary school, these works demonstrate a deeper dive into specialized areas of software development and my ability to tackle more complex challenges.
 
-## Overview
-A short description of the project. What does it do? What problem does it solve?
+## Repository Structure
+
+```
+College-(Sir-Arthur-Lewis-Community-College)/
+├── Main Projects/
+│   ├── C-&C++/
+│   ├── Database Management/
+│   ├── Java/
+│   └── Web Design/
+└── Small Exercises/
+    ├── C-&C++/
+    ├── Database Management/
+    ├── Java/
+    └── Web Design/
+
+---
+
+## Main Projects
+
+The `Main Projects` directory features comprehensive applications developed for my college coursework. These projects are more complex and feature-rich, often involving database integration, web-based interfaces, and more advanced software architecture. They reflect a significant step up in scale and technical skill from my earlier work.
+
+## Small Exercises
+
+The `Small Exercises` directory contains a variety of labs, coding challenges, and assignments completed during my college studies. These exercises cover a broader range of topics and technologies, from object-oriented programming in Java to web development fundamentals. They represent the hands-on practice that solidified my understanding of key computer science concepts.
 
 ## Technologies Used
-- Python 3.11
-- Flask
-- SQLite
-(or whatever applies)
 
-## Features
-- User login system
-- CRUD operations for tasks
-- Responsive design using Tailwind
-
-## Setup Instructions
-1. Clone the repo
-2. Run `pip install -r requirements.txt`
-3. Start the server with `python app.py`
-
-## Status
-Still in progress / Complete / Looking for feedback
-
-## License
-MIT License  
-(Or link to your license / reuse policy)
-
-
-
-
-## Binary Search Algorithm
-This algorithm efficiently finds a target number in a sorted array using divide-and-conquer.
-
-### Pseudocode
-1. Set `low` to 0 and `high` to length of array - 1.
-2. While `low <= high`:
-   - Calculate `mid = (low + high) // 2`
-   - If `array[mid] == target`: return index
-   - If `array[mid] < target`: search right half
-   - Else: search left half
-
-### Pascal Implementation
-```pascal
-function BinarySearch(arr: array of Integer; target: Integer): Integer;
-...
-
-
-
-
-
+The projects in this section were developed using a more modern and diverse tech stack, reflecting my college curriculum:
+- C/C++ (using Code::Blocks)
+- Java (using NetBeans)
+- Web Development (HTML, CSS, JavaScript, PHP with Visual Studio Code)
+- Databases (SQL with Notepad++, phpMyAdmin)
+- Backend & Environment (XAMPP, Laragon, Google Firebase)
 
 ---
 
-### ✅ If You're Targeting Developers or Employers
-
-Then you might want to:
-- Include **just the Pascal implementation**
-- Add **brief algorithm summaries** in the README or as comments
-
-This keeps the repo clean and code-focused.
-
----
-
-### ❌ Avoid including both **separately** with no explanation
-
-That feels repetitive and clutters your repo. Instead, **combine them**, and provide a rationale:  
-"This Pascal implementation demonstrates how I applied the X algorithm to solve Y problem."
-
----
-
-### 🧠 Pro Tips
-
-- If you’re transitioning to a more modern language (e.g., Python, JavaScript), consider **rewriting 1–2 of your favorite Pascal algorithms**. Show your growth.
-- Pascal is niche — keeping it in your portfolio is fine (especially for academic history), but it helps to highlight **language versatility** too.
-
----
-
-Would you like help organizing your early algorithm projects into a structured archive with good README formatting? That could make it much easier for others to navigate.
+Please explore the directories to see how my skills evolved during my college education.

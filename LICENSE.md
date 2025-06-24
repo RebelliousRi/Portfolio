@@ -1,6 +1,6 @@
 # Copyright Notice and License Terms
 
-© 2024 Arianna St John. All Rights Reserved.
+© 2025 Arianna St. John. All Rights Reserved.
 
 ## Terms of Use
 

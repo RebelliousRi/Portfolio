@@ -1,82 +1,45 @@
-# Portfolio
-This is a coding portfolio containing every program I have created, showcasing my skillset journey.
+# Secondary School Projects: St. Joseph's Convent
 
-# Project Name
+Welcome to the first chapter of my programming journey! This section of my portfolio contains the projects and exercises I completed during my secondary school studies at St. Joseph's Convent. These works represent my foundational steps into the world of software development.
 
-## Overview
-A short description of the project. What does it do? What problem does it solve?
+## Repository Structure
+
+```
+Secondary-School-(St.-Joseph's-Convent)/
+├── Main Projects/
+│   ├── Information Technology SBA Arianna St.John/
+│   │   ├── Database Management - Microsoft Access/
+│   │   ├── Problem solving and programming/
+│   │   ├── Spreadsheets - Microsoft Excel/
+│   │   ├── Webpage Design - Wix/
+│   │   └── Word Processing - Microsoft word/
+│   ├── BodyMassIndex.pas
+│   ├── Competition.pas
+│   ├── LightestStudent.pas
+│   ├── PosiNega.pas
+│   ├── StudentsGrade.pas
+│   └── SunRainCast.pas
+└── Small Exercises/
+```
+
+*The IT SBA is my major project from secondary school, demonstrating my ability to plan, develop, and document a complete software solution across multiple disciplines.*
+
+## Main Projects
+
+The `Main Projects` directory contains the most substantial assignments from my secondary school years. These projects, including my Information Technology School-Based Assessment (SBA), were my first attempts at building more complete and robust applications. They demonstrate my early problem-solving skills and my ability to manage a larger codebase.
+
+## Small Exercises
+
+The `Small Exercises` directory is a collection of code snippets, class assignments, and practice exercises. While smaller in scope, these pieces highlight the foundational concepts I learned in algorithms, data structures, and programming logic. They represent the daily practice and learning that built my skills over time.
 
 ## Technologies Used
-- Python 3.11
-- Flask
-- SQLite
-(or whatever applies)
 
-## Features
-- User login system
-- CRUD operations for tasks
-- Responsive design using Tailwind
-
-## Setup Instructions
-1. Clone the repo
-2. Run `pip install -r requirements.txt`
-3. Start the server with `python app.py`
-
-## Status
-Still in progress / Complete / Looking for feedback
-
-## License
-MIT License  
-(Or link to your license / reuse policy)
-
-
-
-
-## Binary Search Algorithm
-This algorithm efficiently finds a target number in a sorted array using divide-and-conquer.
-
-### Pseudocode
-1. Set `low` to 0 and `high` to length of array - 1.
-2. While `low <= high`:
-   - Calculate `mid = (low + high) // 2`
-   - If `array[mid] == target`: return index
-   - If `array[mid] < target`: search right half
-   - Else: search left half
-
-### Pascal Implementation
-```pascal
-function BinarySearch(arr: array of Integer; target: Integer): Integer;
-...
-
-
-
-
-
+The projects in this section were primarily developed using technologies that were part of my secondary school curriculum, including:
+- Pascal (using Eazy Pascal)
+- C/C++ (using Code::Blocks)
+- Microsoft Access (for I.T. SBA databases)
+- Microsoft Excel (for I.T. SBA reports and spreadsheets)
 
 ---
 
-### ✅ If You're Targeting Developers or Employers
-
-Then you might want to:
-- Include **just the Pascal implementation**
-- Add **brief algorithm summaries** in the README or as comments
-
-This keeps the repo clean and code-focused.
-
----
-
-### ❌ Avoid including both **separately** with no explanation
-
-That feels repetitive and clutters your repo. Instead, **combine them**, and provide a rationale:  
-"This Pascal implementation demonstrates how I applied the X algorithm to solve Y problem."
-
----
-
-### 🧠 Pro Tips
-
-- If you’re transitioning to a more modern language (e.g., Python, JavaScript), consider **rewriting 1–2 of your favorite Pascal algorithms**. Show your growth.
-- Pascal is niche — keeping it in your portfolio is fine (especially for academic history), but it helps to highlight **language versatility** too.
-
----
-
-Would you like help organizing your early algorithm projects into a structured archive with good README formatting? That could make it much easier for others to navigate.
+Feel free to explore the directories to see my early work. Each project or exercise is a snapshot of my learning process.
