@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservations</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #hide {
+        opacity: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Reservations</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="rates.html">RATES</a></li>
+        <li><a href="reservations.html">RESERVATIONS</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="driving.html">DRIVING IN ST. LUCIA</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="container" width="100%">
+      <h2>Reservations</h2>
+      <form>
+        <fieldset>
+          <legend><h3>Personal Information</h3></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="firstname">First name:</label> <br /><br /><input
+                  required
+                  maxlength="20"
+                  placeholder="Enter your first name"
+                  type="text"
+                  name="firstname"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="lastname">Last name: </label><br /><br /><input
+                  required
+                  maxlength="20"
+                  placeholder="Enter your last name"
+                  type="text"
+                  name="lastname"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br />
+                <br />
+                <label for="birth">Birth date:</label><br /><br />
+                <input required type="date" name="birth" />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend><h3>Contact Information</h3></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br />
+                <br />
+                <br />
+                <label for="address">Address:</label> <br /><br /><textarea
+                  required
+                  rows="5"
+                  cols="30"
+                  placeholder="Enter your address"
+                  type="text"
+                  name="address"
+                ></textarea>
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <label for="email">Email address:</label> <br /><br /><input
+                  required
+                  placeholder="johndoe@example.com"
+                  type="email"
+                  name="email"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <label for="phone">Phone number: </label> <br /><br /><input
+                  placeholder="0 (123) 456-7890"
+                  type="text"
+                  name="phone"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend><h3>Driver's License Information</h3></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="upload">License upload: </label><br /><br /><input
+                  required
+                  accept=".jpg, .png, .pdf, .docx"
+                  type="file"
+                  name="upload"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="licenseno">License number:</label>
+                <br /><br /><input
+                  required
+                  placeholder="Enter your license number"
+                  type="text"
+                  name="licenseno"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br />
+                <br />
+                <label for="expiry">License expiration date:</label><br /><br />
+                <input required type="date" name="expiry" />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend><h3>Flight And Hotel Information</h3></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="airport">Airport:</label><br /><br />
+                <select name="airport">
+                  <option value="gfl">George F.L. Charles Airport (GFL)</option>
+                  <option value="uvf">
+                    Hewanorra international Airport (UVF)
+                  </option>
+                </select>
+                <br /><br />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="airline">Airline name: </label><br /><br /><input
+                  maxlength="30"
+                  placeholder="Enter your airline name"
+                  type="text"
+                  name="airline"
+                />
+                <br /><br />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br />
+                <br />
+                <label for="flight">Flight number: </label><br /><br /><input
+                  maxlength="6"
+                  placeholder="Enter your flight number"
+                  type="text"
+                  name="flight"
+                />
+                <br /><br />
+              </td>
+            </tr>
+            <tr align="center">
+              <td width="33.3">
+                <br />
+                <label for="arrival">Arrival date and time:</label><br /><br />
+                <input type="datetime-local" name="arrival" />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+
+              <td width="33.3">
+                <label for="hotel">Hotel:</label><br /><br />
+                <select name="hotel">
+                  <option value="chastanet">Anse Chastanet Resort</option>
+                  <option value="gardenbeach">
+                    Bay Gardens Beach Resort and Spa
+                  </option>
+                  <option value="gardenhotel">Bay Gardens Hotel</option>
+                  <option value="gardeninn">Bay Gardens Inn</option>
+                  <option value="gardenmarina">Bay Gardens Marina Haven</option>
+                  <option value="beljou">Bel Jou Hotel</option>
+                  <option value="bodyholiday">BodyHoliday</option>
+                  <option value="calabash">Calabash Cove Resort And Spa</option>
+                  <option value="capmaison">Cap Maison Resort & Spa</option>
+                  <option value="cococpalm">Coco Palm</option>
+                  <option value="cocoapod">Cocoa Pod Studio</option>
+                  <option value="coconutbay">
+                    Coconut Bay Beach Resort & Spa
+                  </option>
+                  <option value="fonddoux">Fond Doux Eco Resort</option>
+                  <option value="harborclub">Harbor Club St. Lucia</option>
+                  <option value="jademountain">Jade Mountain Resort</option>
+                </select>
+
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label id="hide">Hidden:</label>
+                <br /><br />
+                <input type="text" id="hide" /> <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend><h3>Booking Selection</h3></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="vehicle">Vehicle:</label><br /><br />
+                <select required name="vehicle">
+                  <option value="audi">Audi Q3</option>
+                  <option value="mercedes">Mercedes Benz GLC</option>
+                  <option value="mitsubishi">Mitsubishi Pajero</option>
+                  <option value="suzuki">Suzuki Grand Vitara</option>
+                  <option value="toyota">Toyota Rush</option>
+                </select>
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="pickup">Pickup date:</label><br /><br />
+                <input required type="date" name="pickup" />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="return">Return date:</label><br /><br />
+                <input required type="date" name="return" />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <table width="100%" cellpadding="10">
+          <tr align="center">
+            <td width="50">
+              <input type="text" id="hide" /> <br /><br />
+              <input type="reset" value="Reset" name="reset" />
+              <br /><br />
+              <input type="text" id="hide" />
+            </td>
+            <td width="50">
+              <input type="text" id="hide" /> <br /><br />
+              <input type="submit" value="Submit" name="submit" />
+              <br /><br />
+              <input type="text" id="hide" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <footer>
+      <div>
+        <h2>Elite Auto Rentals</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="luxury.html">Luxury Services</a>
+      </div>
+      <div>
+        <h2>Get Help</h2>
+        <a href="contact.html">Contact4</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+      <div>
+        <h2>More</h2>
+        <a href="driving.html">Driving in St. Lucia</a>
+        <a href="rates.html">Rates</a>
+        <a href="reservations.html">Reservations</a>
+      </div>
+      <br />
+      <br />
+      <p>© Copyright 2023 Elite Auto Rentals. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

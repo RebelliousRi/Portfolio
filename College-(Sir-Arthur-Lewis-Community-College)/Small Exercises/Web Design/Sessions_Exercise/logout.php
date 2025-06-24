@@ -1,0 +1,13 @@
+<?php
+
+session_start();
+
+session_unset();
+
+session_destroy();
+
+header("Location: login.php?message=You have successfully logged out of the Super Secret Web.");
+
+exit();
+
+?>

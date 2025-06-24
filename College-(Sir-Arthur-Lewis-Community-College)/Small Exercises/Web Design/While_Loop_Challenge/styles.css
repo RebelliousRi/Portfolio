@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7fd9ff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #0328af;
+  }
+ 
+  input {
+    height: 30px;
+    background-color: #b9cbf0;
+    border-color: #0328af;
+  }
+  
+  input[type="submit"] {
+    color: #0328af;
+    background-color: #76a0f3;
+    border-color: #0328af;
+    align-content: center;
+    border-width: 1px;
+    height: 40px;
+}
+
+input[type="submit"]:hover {
+  color: #76a0f3;
+  background-color: #0328af;
+}

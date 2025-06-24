@@ -1,0 +1,3 @@
+<?php
+define('ENCRYPTION_KEY', 'c76089887ebe74699688263582f65f0e8c1c25878d07f1ddda4494e99bb9c114');
+define('ENCRYPTION_IV', 'e87f5250fea1dfd5e5c08beb011cbdd8');

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Saint Lucia!</title>
+  </head>
+  <body bgcolor="#a4f5d3">
+    <font face="Arial">
+      <img src="Pictures\lc_header.jpg" width="100%" />
+
+      <table width="100%" cellspacing="10" cellpadding="10">
+        <tr bgcolor="#f0bf0e" align="center">
+          <td>
+            <a href="index.html" target="_blank"><p>Home</p></a>
+          </td>
+          <td>
+            <a href="featured.html" target="_blank"><p>Featured Sites</p></a>
+          </td>
+          <td>
+            <a href="forms.html" target="_blank"><p>Tours Booking Form</p></a>
+          </td>
+          <td>
+            <a href="fruits.html" target="_blank"><p>Cuisine</p></a>
+          </td>
+          <td>
+            <a href="#footer" target="_blank"><p>Contact</p></a>
+          </td>
+        </tr>
+      </table>
+
+      <hr width="100%" size="5" color="navy" />
+
+      <!-- Main content-->
+      <style>
+        #hide {
+          opacity: 0;
+        }
+      </style>
+
+      <h1>Saint Lucia Tours Booking Form</h1>
+      <p>
+        Saint Lucia, the island of stunning natural beauty, vibrant culture, and
+        breathtaking beaches, invites you to discover its wonders. From the
+        towering Pitons to the crystal-clear waters, there is something for
+        every visitor to enjoy.
+      </p>
+
+      <form>
+        <fieldset>
+          <legend><h2>Full Name</h2></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="firstname">First name:</label> <br /><br /><input
+                  placeholder="Enter your first name"
+                  type="text"
+                  name="firstname"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="lastname">Last name: </label><br /><br /><input
+                  placeholder="Enter your last name"
+                  type="text"
+                  name="lastname"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label id="hide">Hidden:</label>
+                <br /><br />
+                <input type="text" id="hide" /> <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend><h2>Gender</h2></legend>
+
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="male"> Male </label><br /><br /><input
+                  type="radio"
+                  name="gender"
+                  id="male"
+                  value="male"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="female"> Female</label> <br /><br /><input
+                  type="radio"
+                  name="gender"
+                  id="female"
+                  value="female"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label id="hide">Hidden:</label>
+                <br /><br />
+                <input type="text" id="hide" /> <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend><h2>Contact Details</h2></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="email">Email address:</label> <br /><br /><input
+                  placeholder="Enter your email address"
+                  type="email"
+                  name="email"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="phone">Phone number: </label> <br /><br /><input
+                  placeholder="Enter your phone number (0 (123) 456-7890)"
+                  type="text"
+                  name="phone"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label id="hide">Hidden:</label>
+                <br /><br />
+                <input type="text" id="hide" /> <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend><h2>Tour Selection</h2></legend>
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="tours">Select a tour:</label><br /><br />
+                <select name="tours">
+                  <option value="adventure">Adventure Tour</option>
+                  <option value="historic">Historical Tour</option>
+                  <option value="beach">Beach Tour</option>
+                </select>
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="date">Select your preferred tour date:</label
+                ><br /><br />
+                <input type="date" name="date" />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label id="hide">Hidden:</label>
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend><h2>Add-Ons</h2></legend>
+
+          <table width="100%" cellpadding="10">
+            <tr align="center">
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="lunch"> Lunch </label><br /><br /><input
+                  type="radio"
+                  name="addon"
+                  id="lunch"
+                  value="lunch"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label for="souvenir"> Souvenir Package</label>
+                <br /><br /><input
+                  type="radio"
+                  name="addon"
+                  id="souvenir"
+                  value="souvenir"
+                />
+                <br /><br />
+                <input type="text" id="hide" />
+              </td>
+              <td width="33.3">
+                <input type="text" id="hide" /> <br /><br />
+                <label id="hide">Hidden:</label>
+                <br /><br />
+                <input type="text" id="hide" /> <br /><br />
+                <input type="text" id="hide" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <table width="100%" cellpadding="10">
+          <tr align="center">
+            <td width="33.3">
+              <input type="text" id="hide" /> <br /><br />
+              <input type="reset" value="Reset" name="reset" />
+              <br /><br />
+              <input type="text" id="hide" />
+            </td>
+            <td width="33.3">
+              <input type="text" id="hide" /> <br /><br />
+              <input type="submit" value="Submit" name="submit" />
+              <br /><br />
+              <input type="text" id="hide" />
+            </td>
+            <td width="33.3">
+              <input type="text" id="hide" /> <br /><br />
+              <label id="hide">Hidden:</label>
+              <br /><br />
+              <input type="text" id="hide" /> <br /><br />
+              <input type="text" id="hide" />
+            </td>
+          </tr>
+        </table>
+      </form>
+
+      <hr width="100%" size="5" color="navy" />
+
+      <footer id="footer">
+        <table width="100%" bgcolor="#f0bf0e">
+          <tr align="center">
+            <td>
+              <p>Contact Us: info@saintlucia.com</p>
+              <p>Visit Saint Lucia - Your Island Paradise</p>
+            </td>
+          </tr>
+        </table>
+      </footer>
+    </font>
+  </body>
+</html>

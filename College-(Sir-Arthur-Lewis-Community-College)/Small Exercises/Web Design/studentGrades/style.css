@@ -1,0 +1,62 @@
+/* Apply full-page background */
+body {
+    background: linear-gradient(to right, #008080, #20b2aa);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the form container */
+form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Style headings */
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style input fields */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Pseudo-classes for inputs */
+input:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+input:focus {
+    background: white;
+    transform: scale(1.05);
+    border: 2px solid #008080;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background: white;
+    color: teal;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: lightgray;
+}

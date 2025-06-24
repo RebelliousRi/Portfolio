@@ -1,0 +1,8 @@
+Complete Project Documentation|Write comprehensive documentation for the OOP project|1|2025-05-20
+Implement Search Feature|Add search functionality by title and date|2|2025-05-22
+File I/O Implementation|Implement saving and loading tasks from files|1|2025-05-25
+Unit Testing|Write unit tests for all major components|3|2025-05-28
+Code Review|Review and refactor code for better organization|2|2025-05-30
+Prepare Presentation|Create slides for project presentation|2|2025-06-01
+Bug Fixing|Fix any identified bugs in the application|1|2025-06-03
+User Interface Testing|Test all UI components and user interactions|3|2025-06-05

@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8e1;
+  color: #333; 
+  text-align: center; 
+}
+
+#navbar {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navbar ul li {
+  position: relative;
+  padding: 0 15px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+#navbar a:hover {
+  background-color: #fb8c00;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff3e0;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  min-width: 160px;
+  text-align: left; 
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+  background-color: transparent;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffe0b2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1, h2, h3 {
+  margin: 20px 0;
+}
+
+h1 {
+  color: #ff8c00;
+}
+
+h2 {
+  color: #ff9800;
+}
+
+h3 {
+  color: #fb8c00;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+ul li a {
+  display: block;
+  background-color: #ffe0b2;
+  color: #333;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+  background-color: #ffb74d;
+  color: #000;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table a{
+text-decoration: none;
+}
+
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffb74d; 
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #navbar ul li {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}

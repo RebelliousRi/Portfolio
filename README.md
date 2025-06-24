@@ -1,82 +1,82 @@
-# Portfolio
-This is a coding portfolio containing every program I have created, showcasing my skillset journey.
+# Arianna St John's Programming Portfolio
 
-# Project Name
+Welcome! This repository is a curated journey through my programming career, from my earliest projects in secondary school to my most recent work. It's a collection of projects and exercises that showcase my growth and dedication to coding.
 
-## Overview
-A short description of the project. What does it do? What problem does it solve?
+## About This Portfolio
 
-## Technologies Used
-- Python 3.11
-- Flask
-- SQLite
-(or whatever applies)
+I've separated my work into two main categories to make it easy to explore:
 
-## Features
-- User login system
-- CRUD operations for tasks
-- Responsive design using Tailwind
+### 1. Main Projects
+These are my more robust and feature-rich applications. They demonstrate my ability to build and maintain complete software solutions.
 
-## Setup Instructions
-1. Clone the repo
-2. Run `pip install -r requirements.txt`
-3. Start the server with `python app.py`
-
-## Status
-Still in progress / Complete / Looking for feedback
-
-## License
-MIT License  
-(Or link to your license / reuse policy)
-
-
-
-
-## Binary Search Algorithm
-This algorithm efficiently finds a target number in a sorted array using divide-and-conquer.
-
-### Pseudocode
-1. Set `low` to 0 and `high` to length of array - 1.
-2. While `low <= high`:
-   - Calculate `mid = (low + high) // 2`
-   - If `array[mid] == target`: return index
-   - If `array[mid] < target`: search right half
-   - Else: search left half
-
-### Pascal Implementation
-```pascal
-function BinarySearch(arr: array of Integer; target: Integer): Integer;
-...
-
-
-
-
-
+### 2. Small Exercises
+These are smaller scripts and activities. While more trivial, they highlight the sheer volume of coding I've done over the years through coursework, challenges, and personal learning.
 
 ---
 
-### ✅ If You're Targeting Developers or Employers
+## Repository Structure
 
-Then you might want to:
-- Include **just the Pascal implementation**
-- Add **brief algorithm summaries** in the README or as comments
+Here's a map to help you navigate my work:
 
-This keeps the repo clean and code-focused.
-
----
-
-### ❌ Avoid including both **separately** with no explanation
-
-That feels repetitive and clutters your repo. Instead, **combine them**, and provide a rationale:  
-"This Pascal implementation demonstrates how I applied the X algorithm to solve Y problem."
-
----
-
-### 🧠 Pro Tips
-
-- If you’re transitioning to a more modern language (e.g., Python, JavaScript), consider **rewriting 1–2 of your favorite Pascal algorithms**. Show your growth.
-- Pascal is niche — keeping it in your portfolio is fine (especially for academic history), but it helps to highlight **language versatility** too.
+```
+Portfolio/
+├── main-projects/
+│   ├── project-1/
+│   └── ...
+└── small-exercises/
+    ├── secondary-school/
+    │   └── ...
+    └── college/
+        └── ...
 
 ---
 
-Would you like help organizing your early algorithm projects into a structured archive with good README formatting? That could make it much easier for others to navigate.
+## Technologies & Tools
+
+### Programming Languages
+- Pascal
+- C/C++
+- Java
+- HTML/CSS
+- JavaScript
+- PHP
+- SQL
+
+### Development Environments
+- Eazy Pascal (Pascal development)
+- Code::Blocks (C/C++ development)
+- NetBeans (Java development)
+- Visual Studio Code (Web development)
+- Notepad++ (SQL development)
+
+### Database & Backend Tools
+- XAMPP (Apache, MySQL, PHP)
+- Laragon (Local development environment)
+- phpMyAdmin (MySQL administration)
+- Google Firebase (NoSQL database)
+
+---
+
+## How to Run a Project
+1. Clone this repository.
+2. Navigate to a project directory.
+3. Follow the instructions in that project's specific `README.md`.
+
+---
+
+## License & Copyright
+
+© 2024 Arianna St John. All Rights Reserved.
+
+This portfolio and all its contents are protected under Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0). This means:
+
+- You must give appropriate credit and provide a link to the license
+- You may not use this work for commercial purposes
+- You may not distribute modified versions of this work
+- You must contact me directly for any use, adaptation, or collaboration requests
+
+For detailed terms and conditions, please see the [LICENSE.md](LICENSE.md) file.
+
+---
+
+This portfolio is always growing as I continue to learn and build. If you'd like to know more about any project or have suggestions, feel free to reach out!
