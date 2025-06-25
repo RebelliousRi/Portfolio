@@ -16,8 +16,7 @@ College-(Sir-Arthur-Lewis-Community-College)/
     ├── Database Management/
     ├── Java/
     └── Web Design/
-
----
+```
 
 ## Main Projects
 
